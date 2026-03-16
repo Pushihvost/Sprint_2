@@ -9,7 +9,7 @@
             print('Спортсмен не может занять нулевое или отрицательное место')
         else:
             points = 101 - place
-            return points
+        return points
 
 class PointsForMeters:
 
@@ -20,7 +20,7 @@ class PointsForMeters:
             print('Количество метров не может быть отрицательным')
         else:
             points = meters * 0.5
-            return points
+        return points
 
 
 class TotalPoints(PointsForPlace, PointsForMeters):
